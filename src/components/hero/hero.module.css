@@ -1,0 +1,50 @@
+.wrapper {
+    background: url('../../../public/background.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+.wrapper h1 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 120%;
+    color: var(--action-color);
+    margin: 16px 0 48px;
+}
+
+.wrapper h1 span {
+    font-size: 40px;
+    display: block;
+    color: #fff;
+}
+
+.wrapper p {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+.wrapper p::before {
+    content: "\" ";
+}
+
+.wrapper p::after {
+    content: " \"";
+}
+
+.wrapper img {
+    border-radius: 100%;
+}
+
+.wrapper figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper figcaption {
+    margin-top: 8px;
+    text-align: center;
+}
