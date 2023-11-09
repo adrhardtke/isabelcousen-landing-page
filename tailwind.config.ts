@@ -10,12 +10,15 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'cta_1': "url('/cta_bg1.jpeg')",
       },
+      colors: {
+        action: '#E79AFB',
+        action_dark: '#DE61FF',
+        secondary: '#BDD81B',
+        'black': '#2F2E2F'
+      }
     },
-    colors: {
-      action: '#E79AFB',
-      'black': '#2F2E2F'
-    }
   },
   plugins: [],
 }
