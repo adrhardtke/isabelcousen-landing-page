@@ -2,9 +2,9 @@ import Image from "next/image";
 import styles from './hero.module.css';
 
 import { Raleway } from 'next/font/google'
-import { Button } from "../button/Button";
+import { Button } from "../../components/button/Button";
 import { MdOutlineWhatsapp as WhatsappIcon } from 'react-icons/md'
-import { Instagram } from "../instagram/Instagram";
+import { Instagram } from "../../components/instagram/Instagram";
 const raleway = Raleway({ subsets: ['latin'] })
 
 export const Hero = () => {
