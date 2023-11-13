@@ -3,7 +3,7 @@ import { SessionTitle } from '@/components/session-title/SessionTitle'
 import Image from 'next/image'
 import React from 'react'
 
-export const Contact = () => {
+export const Contato = () => {
   return (
     <section>
         <SessionTitle session='Entre em contato' />

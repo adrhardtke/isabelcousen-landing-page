@@ -6,27 +6,27 @@ import { HelpIcons } from './components/HelpIcons'
 const helpList = [
     {
         title: 'Mudança de pensamento saudável',
-        text: 'Lorem ipsum dolor sit amet consectetur. Malesuada eget amet sed nec rhoncus ullamcorper. Blandit varius risus sit hac. Turpis et nisi nullam nunc orci egestas.',
+        text: 'Cultive uma mentalidade positiva para hábitos alimentares saudáveis, moldando seu pensamento em direção a uma vida equilibrada e prazerosa.',
         Icon: HelpIcons({icon: 'head'})
     },
     {
         title: 'Plano alimentar personalizado',
-        text: 'Lorem ipsum dolor sit amet consectetur. Malesuada eget amet sed nec rhoncus ullamcorper. Blandit varius risus sit hac. Turpis et nisi nullam nunc orci egestas.',
+        text: 'Desfrute de refeições deliciosas e personalizadas, adaptadas às suas necessidades únicas para alcançar seus objetivos de saúde de maneira sustentável.',
         Icon: HelpIcons({icon: 'apple'})
     },
     {
         title: 'Avaliação física e acompanhamento individualizado',
-        text: 'Lorem ipsum dolor sit amet consectetur. Malesuada eget amet sed nec rhoncus ullamcorper. Blandit varius risus sit hac. Turpis et nisi nullam nunc orci egestas.',
+        text: 'Alcance seus objetivos com uma avaliação física abrangente e acompanhamento personalizado, ajustando estratégias para otimizar sua jornada de saúde.',
         Icon: HelpIcons({icon: 'training'})
     },
     {
         title: 'Suporte da nutri',
-        text: 'Lorem ipsum dolor sit amet consectetur. Malesuada eget amet sed nec rhoncus ullamcorper. Blandit varius risus sit hac. Turpis et nisi nullam nunc orci egestas.',
+        text: 'Estou ao seu lado em cada passo, proporcionando suporte integral que vai além da nutrição.',
         Icon: HelpIcons({icon: 'support'})
     }
 ]
 
-export const Help = () => {
+export const Ajuda = () => {
   return (
     <section className='mt-4'>
         <SessionTitle session='Como eu posso te ajudar' />
