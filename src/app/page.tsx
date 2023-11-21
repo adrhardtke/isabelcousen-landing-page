@@ -15,13 +15,13 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div className="p-4">
+      <div className="p-4 sm:max-w-4xl sm:mx-auto">
         <Sobre />
         <Ajuda />
         <Avaliacoes />
       </div>
       <FirstCTA />
-      <div className="p-4">
+      <div className="p-4 sm:max-w-4xl sm:mx-auto">
         <Contato />
         <ComoFunciona />
         <NossoEspaco />

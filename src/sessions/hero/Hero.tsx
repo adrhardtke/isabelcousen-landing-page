@@ -34,7 +34,7 @@ export const Hero = () => {
             <figcaption>Isabel Cousen</figcaption>
             </figure>
         </div>
-        <Button variant="primary">
+        <Button variant="primary" className={'max-w-md'}>
             <div className="flex items-center text-center w-full justify-center">
                 <WhatsappIcon size="20" />
                 <span className="pl-2">

@@ -5,7 +5,7 @@ import { AvailableItem } from '../Avaliacoes'
 export const Cards = ({availables}: {availables: AvailableItem[]}) => {
   return (
     <div className="container flex-grow w-full mx-auto px-0">
-      <div className="mx-auto w-full md:w-4/5">
+      <div className="mx-auto w-full ">
         <div className="container my-4">
           <div
             id="scrollContainer"
