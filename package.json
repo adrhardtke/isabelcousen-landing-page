@@ -1,7 +1,8 @@
 {
-  "name": "isabelcousen-landing-page",
+  "name": "isabelcousen",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://isabelcousen.com.br",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
