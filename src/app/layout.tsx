@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'Nutricionista Isabel Cousen',
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={inter.className}>
         {children}
+        <Analytics />
         <SpeedInsights />
       </body>
     </html>
