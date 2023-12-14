@@ -9,7 +9,7 @@ type Props = {
 
 const defaultOnClick = () => {
   const mensagem = "Olá Nutri Isabel Cousen! Estou interessado(a) em marcar uma consulta e gostaria de saber mais sobre os serviços oferecidos."
-  const url = `https://api.whatsapp.com/send?phone=5553997073326&text=${encodeURI(mensagem)}`
+  const url = `https://api.whatsapp.com/send?phone=5553999373865&text=${encodeURI(mensagem)}`
   const newWindow = window.open(url, '_blank')
   if (newWindow) newWindow.opener = null
 }
