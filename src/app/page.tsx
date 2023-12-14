@@ -41,7 +41,7 @@ export default function Home() {
           <Contato />
           <ComoFunciona />
           <NossoEspaco />
-          <Parcerias />
+          {/* <Parcerias /> */}
         </div>
         <SecondCTA />
         <InstagramCTA />
