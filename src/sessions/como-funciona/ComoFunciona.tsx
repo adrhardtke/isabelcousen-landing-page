@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { BsLaptop as OnlineIcon } from 'react-icons/bs'
 import { MdCheck, MdLocationOn as PresencialIcon} from 'react-icons/md'

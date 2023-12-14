@@ -1,3 +1,4 @@
+'use client'
 import { Instagram } from '@/components/instagram/Instagram'
 import React from 'react'
 

@@ -1,3 +1,4 @@
+'use client'
 import { Stars } from '@/components/stars/Stars'
 import React from 'react'
 import { AvailableItem } from '../Avaliacoes'

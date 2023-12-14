@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 
 export const HelpIcons = ({icon}: {icon: 'head' | 'apple' | 'training' | 'support'}) => {

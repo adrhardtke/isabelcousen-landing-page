@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { MdOutlineWhatsapp as WhatsappIcon } from 'react-icons/md'
 import { Button } from '@/components/button/Button'

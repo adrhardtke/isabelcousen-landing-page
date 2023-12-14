@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { SessionTitle } from '../../components/session-title/SessionTitle'
 import { Picture } from './components/Picture/Picture'

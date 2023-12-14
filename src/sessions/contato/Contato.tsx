@@ -1,3 +1,4 @@
+'use client'
 import { Button } from '@/components/button/Button'
 import { SessionTitle } from '@/components/session-title/SessionTitle'
 import Image from 'next/image'

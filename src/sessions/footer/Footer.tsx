@@ -1,3 +1,4 @@
+'use client'
 import { Instagram } from '@/components/instagram/Instagram'
 import { getMapLink } from '@/helpers/get-map-link'
 import React from 'react'
