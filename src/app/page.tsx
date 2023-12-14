@@ -1,3 +1,4 @@
+'use client'
 import { Hero } from "@/sessions/hero/Hero";
 import { Sobre } from "@/sessions/sobre/Sobre";
 import { Ajuda } from "@/sessions/ajuda/Ajuda";
