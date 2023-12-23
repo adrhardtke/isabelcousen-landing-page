@@ -13,6 +13,7 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'cta_1': "url('/cta_bg1.jpeg')",
         'cta_2': "url('/cta_bg2.jpeg')",
+        'cta_1_md': "url('/background-cta-1-md.jpg')"
       },
       colors: {
         action: '#E79AFB',

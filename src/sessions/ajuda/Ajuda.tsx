@@ -31,7 +31,7 @@ export const Ajuda = () => {
   return (
     <section className='mt-4'>
         <SessionTitle session='Como eu posso te ajudar' />
-        <div className="items">
+        <div className="items md:grid md:grid-cols-2">
             {
                 helpList.map(item => (
                     <HelpItem key={item.title} {...item} />

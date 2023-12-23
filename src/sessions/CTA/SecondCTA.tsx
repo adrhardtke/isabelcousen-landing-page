@@ -5,7 +5,7 @@ import { Button } from '@/components/button/Button'
 
 export const SecondCTA = () => {
   return (
-    <section className='mt-4'>
+    <section className='mt-4 md:hidden'>
         <div className="bg-cta_2 w-full p-4 relative h-[134px]">
         </div>
         <div className='p-4'>
